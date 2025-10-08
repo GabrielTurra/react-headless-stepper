@@ -1,7 +1,7 @@
 {
   "name": "react-headless-stepper",
   "description": "A flexible, headless, and composable multi-step component library for React.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
