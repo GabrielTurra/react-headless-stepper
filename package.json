@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "repository": "https://github.com/GabrielTurra/react-headless-stepper",
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs"
   },
@@ -15,6 +16,7 @@
   "author": "gabriel.turra@outlook.com",
   "license": "ISC",
   "devDependencies": {
+    "@biomejs/biome": "^2.2.4",
     "@rollup/plugin-commonjs": "^28.0.6",
     "@rollup/plugin-node-resolve": "^16.0.2",
     "@rollup/plugin-terser": "^0.4.4",

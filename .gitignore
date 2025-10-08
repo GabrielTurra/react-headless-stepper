@@ -1,2 +1,12 @@
-node_modules
-dist
+# Dependencies
+node_modules/
+
+# Build output of the library
+dist/
+
+# OS & Editor
+.DS_Store
+.vscode/
+
+# Example project (in progress)
+example
