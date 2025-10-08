@@ -7,6 +7,3 @@ dist/
 # OS & Editor
 .DS_Store
 .vscode/
-
-# Example project (in progress)
-example

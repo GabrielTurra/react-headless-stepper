@@ -1,0 +1,36 @@
+.stepper-root {
+  form {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+
+    gap: 1rem;
+    padding: 1rem;
+
+    border: 1px solid lightgray;
+  }
+
+  .stepper-item {
+    text-align: center;
+  }
+
+  .stepper-progress {
+    text-align: center;
+  }
+
+  .stepper-controllers {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: auto;
+
+    justify-content: flex-end;
+
+    button {
+      padding: 0.5rem 1rem;
+      border: 1px solid lightgray;
+    }
+  }
+
+}
