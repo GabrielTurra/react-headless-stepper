@@ -2,26 +2,32 @@
   "name": "react-headless-stepper",
   "description": "A flexible, headless, and composable multi-step component library for React.",
   "version": "0.0.1",
+  "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "author": "gabriel.turra@outlook.com",
+  "license": "ISC",
   "repository": "https://github.com/GabrielTurra/react-headless-stepper",
+  "keywords": [],
   "scripts": {
-    "build": "rollup -c --bundleConfigAsCjs"
+    "build": "rollup -c --bundleConfigAsCjs",
+    "prepare": "husky",
+    "commit": "cz"
   },
   "files": [
     "dist"
   ],
-  "keywords": [],
-  "author": "gabriel.turra@outlook.com",
-  "license": "ISC",
   "devDependencies": {
     "@biomejs/biome": "^2.2.4",
+    "@commitlint/cli": "^20.1.0",
+    "@commitlint/config-conventional": "^20.0.0",
     "@rollup/plugin-commonjs": "^28.0.6",
     "@rollup/plugin-node-resolve": "^16.0.2",
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^12.1.4",
     "@types/react": "^19.2.2",
+    "husky": "^9.1.7",
     "react": "^19.2.0",
     "rollup": "^4.52.4",
     "rollup-plugin-dts": "^6.2.3",
